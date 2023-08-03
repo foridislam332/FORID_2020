@@ -1,4 +1,5 @@
 import About from "../sections/About";
+import Contact from "../sections/Contact";
 import Education from "../sections/Education";
 import Hero from "../sections/Hero"
 import Projects from "../sections/Projects";
@@ -12,6 +13,7 @@ const Home = () => {
             <Services />
             <Education />
             <Projects />
+            <Contact />
         </>
     );
 };
