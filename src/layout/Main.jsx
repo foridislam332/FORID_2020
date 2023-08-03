@@ -12,7 +12,7 @@ const Main = () => {
             <Header />
 
             {/* main */}
-            <main>
+            <main className='container'>
                 <Outlet />
             </main>
 

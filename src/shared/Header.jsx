@@ -5,6 +5,7 @@ import Navigation from './Navigation';
 
 // react-icons
 import { HiBars3 } from "react-icons/hi2";
+import Drawer from '../mobile/Drawer';
 
 // logo
 // import Logo from '../../assets/images/logo.png';
@@ -30,7 +31,7 @@ const Header = () => {
     }, []);
 
     return (
-        <header className={`fixed w-full py-3 lg:py-0 z-50 transition-all duration-300 ease-in-out ${navState ? 'shadow-lg bg-white' : 'shadow-lg lg:shadow-none bg-transparent'}`}>
+        <header className={`fixed w-full flex items-center justify-center z-50 shadow-custom transition-all duration-300 ease-in-out ${navState ? 'bg-white h-16' : 'h-20 bg-dark'}`}>
             <div className="container">
                 <nav className="flex items-center justify-between">
                     {/* Logo */}
@@ -40,20 +41,17 @@ const Header = () => {
                     </Link>
 
                     {/* toggle button */}
-                    <button onClick={toggleNavbar} className='block lg:hidden text-black'>
+                    <button onClick={toggleNavbar} className='block lg:hidden text-white'>
                         <HiBars3 className='text-4xl' />
                     </button>
 
                     {/* Navigation links */}
                     <div className='hidden lg:flex items-center gap-16'>
                         <Navigation />
-                        <button className='btn_primary'>
-                            Download Resume
-                        </button>
                     </div>
 
                     {/* Responsive menu button */}
-                    {/* <Drawer isOpen={isOpen} toggle={toggleNavbar} /> */}
+                    <Drawer isOpen={isOpen} toggle={toggleNavbar} />
                 </nav>
             </div >
         </header >
