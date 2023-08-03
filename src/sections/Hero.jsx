@@ -5,7 +5,7 @@ import SocialIcons from '../components/SocialIcons';
 const Hero = () => {
     return (
         <section className="bg-dark mb-12 p-6 md:p-12 duration-300">
-            <div className="grid grid-cols-1 lg:grid-cols-7 items-center gap-10 lg:gap-2 duration-300">
+            <div className="grid grid-cols-1 lg:grid-cols-7 items-center gap-10 lg:gap-14 duration-300">
 
                 {/* left content */}
                 <div className='col-span-3'>

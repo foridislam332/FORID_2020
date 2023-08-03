@@ -18,9 +18,10 @@ const Navigation = () => {
             <li>
                 <Link to='/education'>Education</Link>
             </li>
-            <button className='btn_primary'>
+
+            <Link target="_blank" rel="noreferrer" to="https://drive.google.com/file/d/1INPgb_Krz66nLNcb4M5kIdpm0N7zhMwH/view?usp=sharing" className="btn_primary">
                 Download Resume
-            </button>
+            </Link>
         </ul>
     );
 };
