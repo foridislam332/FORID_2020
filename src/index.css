@@ -17,7 +17,7 @@ body {
     transition: all .3s ease-in-out;
     position: relative;
     display: block;
-    z-index: 99;
+    z-index: 40;
     overflow: hidden;
     box-shadow: var(--boxShadow) !important;
     text-decoration: none !important;
@@ -33,6 +33,10 @@ body {
     right: -100%;
     z-index: -1;
     transition: all .3s ease-in-out;
+}
+
+.btn_primary:hover {
+    box-shadow: 10px 10px 19px #0a0a0aa8;
 }
 
 .btn_primary:hover::before {

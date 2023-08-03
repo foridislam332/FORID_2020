@@ -15,6 +15,7 @@ export default {
       },
       boxShadow: {
         'custom': '10px 10px 19px #1c1e22, -10px -10px 19px #262a2e',
+        'iconShadow': '10px 10px 19px #0a0a0aa8',
       }
     },
     backgroundImage: {

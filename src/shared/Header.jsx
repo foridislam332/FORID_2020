@@ -31,7 +31,7 @@ const Header = () => {
     }, []);
 
     return (
-        <header className={`fixed w-full flex items-center justify-center z-50 shadow-custom transition-all duration-300 ease-in-out ${navState ? 'bg-white h-16' : 'h-20 bg-dark'}`}>
+        <header className={`fixed bg-dark w-full flex items-center justify-center z-50 shadow-custom transition-all duration-300 ease-in-out ${navState ? 'backdrop-blur-lg bg-dark/60 h-[70px]' : 'h-20'}`}>
             <div className="container">
                 <nav className="flex items-center justify-between">
                     {/* Logo */}
