@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    background: #212529;
+}
+
+/* primary button styles */
+.btn_primary {
+    padding: 10px 20px !important;
+    background: linear-gradient(to left, #ae216b, #df4454, #f67a36);
+    color: #ffffff !important;
+    border-radius: 0 !important;
+    transition: all .3s ease-in-out;
+    position: relative;
+    display: block;
+    z-index: 99;
+    overflow: hidden;
+    box-shadow: var(--boxShadow) !important;
+    text-decoration: none !important;
+}
+
+.btn_primary::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #ae216b, #df4454, #f67a36);
+    top: 0;
+    right: -100%;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+}
+
+.btn_primary:hover::before {
+    top: 96%;
+}
+
+.btn_primary:hover::after {
+    right: 0;
+}
