@@ -46,3 +46,22 @@ body {
 .btn_primary:hover::after {
     right: 0;
 }
+
+/* react tabs styles */
+.react-tabs__tab {
+    color: #fff !important;
+    font-weight: 700;
+    border-radius: 0 !important;
+    border: 1px solid #01c3da !important;
+    transition: all .3s ease-in-out;
+}
+
+.react-tabs__tab--selected {
+    color: #fff !important;
+    background: #01c3da !important;
+    border: 1px solid #01c3da !important;
+}
+
+.react-tabs__tab:focus:after {
+    display: none;
+}
