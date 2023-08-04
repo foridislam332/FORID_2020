@@ -4,7 +4,7 @@ const useProjectData = () => {
     const { data: projectData = [], isLoading: loading, refetch } = useQuery({
         queryKey: ['projectData'],
         queryFn: async () => {
-            const res = await fetch('/projects.json');
+            const res = await fetch('/project.json');
             const data = await res.json();
             return data;
         },

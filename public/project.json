@@ -1,0 +1,193 @@
+[
+    {
+        "name": "Digity",
+        "title": "Digital Agency React Template",
+        "client": "Themeforest",
+        "date": "01 Aug 2023",
+        "liveLink": "https://digity-by-forid.netlify.app/",
+        "clientCode": null,
+        "serverCodeLink": null,
+        "description": "Digity - Digital Agency React Template - Creative Site Templates Live Preview Digity is a clean and creative Tailwind Css template. All files are perfectly organized, so you can easily customize them. It’s based on the Tailwind CSS grid system. This template is specially designed for Digital Agency, Corporate Agency, Freelancers, Companies portfolios, and much more.",
+        "picture": "https://i.ibb.co/6g5MKwT/digity.png",
+        "screenshots": [
+            "https://i.ibb.co/dB5w1yg/1.png",
+            "https://i.ibb.co/hYd0rc3/2.png",
+            "https://i.ibb.co/R2cbGBm/3.png",
+            "https://i.ibb.co/dphJTdp/4.png"
+        ],
+        "technology": [
+            "React",
+            "Vite",
+            "Tailwind",
+            "React Router",
+            "React hooks",
+            "Swiper JS",
+            "Eslint",
+            "React Icons"
+        ],
+        "category": "react"
+    },
+    {
+        "name": "Eco Learner",
+        "title": "e-Learning Courses React Template",
+        "client": "Programming Hero",
+        "date": "18 June 2023",
+        "liveLink": "https://eco-learner.web.app/",
+        "clientCode": "https://github.com/foridislam332/Eco_Learner",
+        "serverCodeLink": "https://github.com/foridislam332/-Eco_Learner_server",
+        "description": "Eco Learner is A Summer Camp Nature Exploration Learning School combines the elements of a traditional summer camp with a focus on nature exploration and experiential learning.",
+        "picture": "https://i.ibb.co/3mSD0Wj/eco-learner.png",
+        "screenshots": [
+            "https://i.ibb.co/XXqBCpL/1.png",
+            "https://i.ibb.co/pztqF1M/2.png",
+            "https://i.ibb.co/gFrydDZ/3.png",
+            "https://i.ibb.co/L8cr2pJ/4.png"
+        ],
+        "technology": [
+            "React",
+            "Vite",
+            "Tailwind",
+            "React Router",
+            "MongoDB",
+            "Express",
+            "Node JS",
+            "Cors",
+            "Swiper JS"
+        ],
+        "category": "react"
+    },
+    {
+        "name": "Campus Connect",
+        "title": "College Booking React Template",
+        "client": "SCIC",
+        "date": "24 July 2023",
+        "liveLink": "https://campus-connects.web.app/",
+        "clientCode": "https://github.com/foridislam332/Campus_Connect_Client",
+        "serverCodeLink": "https://github.com/foridislam332/Campus_Connect_Server",
+        "description": "Campus Connect is a college booking platform designed to the process of finding the best college for students. With its comprehensive database, Campus Connect revolutionizes the college search experience.",
+        "picture": "https://i.ibb.co/SnG99HK/campus.png",
+        "screenshots": [
+            "https://i.ibb.co/yQ8sPj7/1.png",
+            "https://i.ibb.co/tmf3qtd/2.png",
+            "https://i.ibb.co/Qj8m6kZ/3.png",
+            "https://i.ibb.co/NN9566B/4.png"
+        ],
+        "technology": [
+            "React",
+            "Vite",
+            "Tailwind",
+            "Firebase",
+            "MongoDB",
+            "Express",
+            "Axios",
+            "Node JS",
+            "Moment JS"
+        ],
+        "category": "react"
+    },
+    {
+        "name": "Brigate",
+        "title": "Brigate Construction HTML Template",
+        "client": "Mike Wong",
+        "date": "30 Nov 2021",
+        "liveLink": "https://brigate-by-forid.netlify.app/",
+        "clientCode": "https://github.com/foridislam332/brigate-construction",
+        "serverCodeLink": null,
+        "description": "Brigate Construction is a Iconic HTML Template that is specially structured for Real Estate Services Companies website. One can use this platform to create real estate Blogs for different purposes such as Real Estate News. Construction companies, Renovation Services, Structure, Building & Architectural Style, Interior Design services.",
+        "picture": "https://i.ibb.co/ns4HcXQ/brigate.png",
+        "screenshots": [
+            "https://i.ibb.co/zXJYzvV/1.png",
+            "https://i.ibb.co/VTLv7xg/2.png",
+            "https://i.ibb.co/5hyLrJ2/3.png",
+            "https://i.ibb.co/mGhRTPw/4.png"
+        ],
+        "technology": [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "Font-Awesome",
+            "Google Fonts",
+            "Javascript"
+        ],
+        "category": "html"
+    },
+    {
+        "name": "Electro Kidz",
+        "title": "Toys Store React Template",
+        "client": "John Doe",
+        "date": "19 Mar 2023",
+        "liveLink": "https://electro-kidz.web.app/",
+        "clientCode": "https://github.com/foridislam332/Electro_Kidz",
+        "serverCodeLink": "https://github.com/foridislam332/Electro_Kidz_Server",
+        "description": "Electro Kidz is a cute beautiful & attractive Kids Toys Store React Template with Tailwind CSS. It perfectly suits any kids toys online store for Electronic Toys and video games, Educational Computers, Storytelling Toys, Electronic Pets, Handheld Games Toys store. Also it fits gift shop, children presents, baby clothing and surprise accessories.",
+        "picture": "https://i.ibb.co/kDp14X3/electro.png",
+        "screenshots": [
+            "https://i.ibb.co/gP7D0Ff/1.png",
+            "https://i.ibb.co/X44FCL2/2.png",
+            "https://i.ibb.co/z48Yvnz/3.png",
+            "https://i.ibb.co/nkgqvQz/4.png"
+        ],
+        "technology": [
+            "React",
+            "Vite",
+            "Tailwind",
+            "AOS",
+            "MongoDB",
+            "React Loader",
+            "Node JS",
+            "Swiper JS"
+        ],
+        "category": "react"
+    },
+    {
+        "name": "Tasty Salt",
+        "title": "Chef & Food React Template",
+        "client": "Milestone",
+        "date": "03 Mar 2023",
+        "liveLink": "https://tasty-salt.web.app",
+        "clientCode": "https://github.com/foridislam332/Tasty_Salt",
+        "serverCodeLink": "https://github.com/foridislam332/Tasty_Salt_Server",
+        "description": "Tasty Salt hef & Food React Template a fresh and clean design for chef and food website. Layout is fully responsive, easy to use and easy customize. Include Home, Chef's, blog, Profile, 404 page. I hope you will have a great experience.",
+        "picture": "https://i.ibb.co/QpKRbPc/tasty.png",
+        "screenshots": [
+            "https://i.ibb.co/G2KP0ty/1.png",
+            "https://i.ibb.co/GPwvZHk/2.png",
+            "https://i.ibb.co/Q6zy6qp/3.png",
+            "https://i.ibb.co/t3v18wD/4.png"
+        ],
+        "technology": [
+            "React",
+            "Vite",
+            "Tailwind",
+            "Firebase",
+            "MongoDB",
+            "Js PDF",
+            "React Lazy Load",
+            "Toastify",
+            "React Icons"
+        ],
+        "category": "react"
+    },
+    {
+        "name": "",
+        "title": "",
+        "client": "",
+        "date": "",
+        "liveLink": "",
+        "clientCode": "",
+        "serverCodeLink": "",
+        "description": "",
+        "picture": "",
+        "screenshots": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "technology": [
+            "",
+            "",
+            ""
+        ]
+    }
+]

@@ -2,18 +2,14 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 
 
-const ImageSlider = () => {
+const ImageSlider = ({ screenshots }) => {
     return (
         <Carousel className="shadow-iconShadow rounded-xl" autoPlay={true} infiniteLoop={true} showThumbs={false}>
-            <div>
-                <img className="rounded-xl" src="https://i.ibb.co/wr8vDc3/Capture.png" />
-            </div>
-            <div>
-                <img className="rounded-xl" src="https://i.ibb.co/wr8vDc3/Capture.png" />
-            </div>
-            <div>
-                <img className="rounded-xl" src="https://i.ibb.co/wr8vDc3/Capture.png" />
-            </div>
+            {
+                screenshots?.map((image, index) => <div key={index}>
+                    <img className="rounded-xl" src={image} />
+                </div>)
+            }
         </Carousel>
     );
 };
