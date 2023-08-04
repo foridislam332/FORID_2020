@@ -33,9 +33,9 @@ const Contact = () => {
                 </div>
 
                 <div className='w-full mt-4'>
-                    <label className='text-gray' htmlFor="des">Description:</label>
-                    <textarea rows={4} id='des' placeholder='Write Description' {...register("des", { required: true })} className='w-full border border-green py-2 px-3 rounded-md outline-none' />
-                    {errors.des && <span className='text-red'>This field is required</span>}
+                    <label className='text-gray' htmlFor="message">Message:</label>
+                    <textarea rows={4} id='message' placeholder='Write your message' {...register("message", { required: true })} className='w-full border border-green py-2 px-3 rounded-md outline-none' />
+                    {errors.message && <span className='text-red'>This field is required</span>}
                 </div>
 
                 <button className='btn_primary w-full text-xl mt-4'>Submit</button>
