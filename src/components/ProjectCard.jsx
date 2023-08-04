@@ -1,5 +1,8 @@
 import { Link } from 'react-router-dom';
 
+// react icons
+import { HiOutlineExternalLink } from 'react-icons/hi';
+
 const ProjectCard = ({ project }) => {
     const { id, title, imageURL, projectURL } = project;
 
@@ -13,11 +16,10 @@ const ProjectCard = ({ project }) => {
                 <img className='w-full' src={imageURL} alt="" />
             </div>
 
-            <div className="absolute left-0 top-52 group-hover:top-0 w-full h-full bg-black/80 text-blue pt-4 duration-300 delay-300">
-                <h2 className='text-2xl flex items-center justify-center'>
-                    {title}
-                </h2>
-                <Link target="_blank" rel="noreferrer" to={projectURL} className="text-blue text-base underline italic flex items-center justify-center">Live Project</Link>
+            <div className="absolute left-0 top-56 group-hover:top-40 w-full h-full bg-black/80 text-blue pt-4 duration-300 delay-300">
+                <Link target="_blank" rel="noreferrer" to={projectURL} className='text-2xl flex items-center justify-center gap-2'>
+                    {title} - <HiOutlineExternalLink className='text-white hover:text-red duration-300' />
+                </Link>
             </div>
 
             <div className="absolute bottom-5 -right-52 group-hover:right-0 duration-300 delay-300">
