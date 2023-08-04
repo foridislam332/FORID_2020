@@ -16,7 +16,7 @@ const ProjectCard = ({ project }) => {
                 <img className='w-full' src={picture} alt="" />
             </div>
 
-            <div className="absolute left-0 top-52 group-hover:top-36 w-full h-full bg-black/80 pt-3 duration-300 delay-300">
+            <div className="absolute left-0 top-52 group-hover:top-36 w-full h-full backdrop-blur-sm bg-black/80 pt-3 duration-300 delay-300">
                 <Link target="_blank" rel="noreferrer" to={liveLink} className='text-red font-bold text-2xl flex items-center gap-2 mx-3'>
                     {name} - <HiOutlineExternalLink className='text-white hover:text-red duration-300' />
                 </Link>

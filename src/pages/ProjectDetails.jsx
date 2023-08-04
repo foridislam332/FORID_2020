@@ -10,11 +10,14 @@ const ProjectDetails = () => {
     const { id } = useParams();
 
     useEffect(() => {
-        const findProject = projectData.find(project => project.name == id);
-        setProject(findProject);
-    }, [id])
+        if (projectData.length) {
+            const findProject = projectData.find(project => project.name == id);
+            setProject(findProject);
+        }
+    }, [id, projectData.length])
 
-    const { name, title, liveLink, client, date, clientCode, serverCodeLink, picture, description, screenshots, technology } = project;
+    const { name, title, liveLink, client, date, clientCode, serverCodeLink, description, screenshots, technology } = project;
+
     return (
         <section className="bg-dark mb-12 p-6 md:p-12 duration-300">
             <SectionTitle title='Project Details' />

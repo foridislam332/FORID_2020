@@ -20,14 +20,14 @@ const Projects = () => {
             const filterProject = projectData.filter(project => project.category === category);
             return setProjects(filterProject)
         }
-    }, [category])
+    }, [category, projectData.length])
 
     let content;
 
     if (projects.length > 0) {
         content = <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12'>
             {
-                projects.map((project, index) => <ProjectCard
+                projects.slice(0, 6).map((project, index) => <ProjectCard
                     key={index}
                     project={project}
                 />)
@@ -42,7 +42,7 @@ const Projects = () => {
                 <TabList className="text-navy text-lg text-center space-x-2 space-y-2">
                     <Tab onClick={() => setCategory('all')}>All Template</Tab>
                     <Tab onClick={() => setCategory('react')}>React Template</Tab>
-                    <Tab onClick={() => setCategory('html-template')}>HTML Template</Tab>
+                    <Tab onClick={() => setCategory('html')}>HTML Template</Tab>
                 </TabList>
 
                 <TabPanel>
